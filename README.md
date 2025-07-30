@@ -1,2 +1,2 @@
-We implement a simulation algorithm for the price of 5 stocks in the well known Black-Scholes framework, first for 5 independent stocks and then for 5 dependent stocks.
-$$x+5=\lim_{n\to\infty}$$
+We implement a simulation algorithm for the price of 5 stocks in the well known Black-Scholes framework, first for 5 independent stocks and then for 5 dependent stocks. We assume the market coefficients $$\mu_i$$, $$\sigma_{ij}$$ are constant, so the price for stock $$i$$ is a stochastic process of the form $$S_i(t) = s_i \exp \left( \left( \mu_i - \frac{1}{2} \sum_{j=1}^{n} \sigma_{i,j}^2 \right) t + \sum_{j=1}^{n} \sigma_{i,j} W_j(t) \right)$$.
+
